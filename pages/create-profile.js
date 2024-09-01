@@ -37,6 +37,8 @@ export default function CreateProfile() {
       web3: [],
       cloud: [],
       cms: [],
+      embedded: [],
+      operatingSystem: [],
       other: [],
     },
     socials: {
@@ -625,6 +627,8 @@ export default function CreateProfile() {
             state.skills.web3.length === 0 &&
             state.skills.cloud.length === 0 &&
             state.skills.cms.length === 0 &&
+            state.skills.embedded.length === 0 &&
+            state.skills.operatingSystem.length === 0 &&
             state.skills.other.length === 0 ? null : (
               <h3>Skills</h3>
             )}
@@ -643,6 +647,8 @@ export default function CreateProfile() {
               state.skills.web3.length < 1 &&
               state.skills.cloud.length < 1 &&
               state.skills.cms.length < 1 &&
+              state.skills.embedded.length < 1 &&
+              state.skills.operatingSystem.length < 1 &&
               state.skills.other.length < 1
                 ? "mb-0"
                 : "mb-4"
@@ -937,6 +943,8 @@ export default function CreateProfile() {
                 renderedMarkdown.skills.other.length < 1 &&
                 renderedMarkdown.skills.software.length < 1 &&
                 renderedMarkdown.skills.web3.length < 1 &&
+                renderedMarkdown.skills.embedded.length < 1 &&
+                renderedMarkdown.skills.operatingSystem.length < 1 &&
                 renderedMarkdown.skills.cms.length < 1 ? null : (
                   <span>{`<p align="left">\n`}</span>
                 )}
@@ -977,6 +985,14 @@ export default function CreateProfile() {
                   ? build_markdown_skill(renderedMarkdown.skills.cms)
                   : null}
 
+                {renderedMarkdown.skills.embedded.length > 0
+                  ? build_markdown_skill(renderedMarkdown.skills.embedded)
+                  : null}
+
+                {renderedMarkdown.skills.operatingSystem.length > 0
+                  ? build_markdown_skill(renderedMarkdown.skills.operatingSystem)
+                  : null}
+
                 {renderedMarkdown.skills.other.length > 0
                   ? build_markdown_skill(renderedMarkdown.skills.other)
                   : null}
@@ -990,6 +1006,8 @@ export default function CreateProfile() {
                 renderedMarkdown.skills.web3.length < 1 &&
                 renderedMarkdown.skills.cloud.length < 1 &&
                 renderedMarkdown.skills.cms.length < 1 &&
+                renderedMarkdown.skills.embedded.length < 1 &&
+                renderedMarkdown.skills.operatingSystem.length < 1 &&
                 renderedMarkdown.skills.other.length < 1 ? null : (
                   <span>{`
                     </p>

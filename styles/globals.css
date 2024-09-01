@@ -855,6 +855,50 @@ Table Of Contents:
   .wordpress.colored {
     @apply bg-[url('../public/icons/skills/wordpress-colored.svg')];
   }
+  /** Embedded icons **/
+  .arduino {
+    @apply bg-[url('../public/icons/skills/arduino.svg')] dark:bg-[url('../public/icons/skills/arduino-dark.svg')];
+  }
+  .arduino.colored {
+    @apply bg-[url('../public/icons/skills/arduino-colored.svg')];
+  }
+  .raspberrypi {
+    @apply bg-[url('../public/icons/skills/raspberrypi.svg')] dark:bg-[url('../public/icons/skills/raspberrypi-dark.svg')];
+  }
+  .raspberrypi.colored {
+    @apply bg-[url('../public/icons/skills/raspberrypi-colored.svg')];
+  }
+  .yocto {
+    @apply bg-[url('../public/icons/skills/yocto.svg')] dark:bg-[url('../public/icons/skills/yocto-dark.svg')];
+  }
+  .yocto.colored {
+    @apply bg-[url('../public/icons/skills/yocto-colored.svg')];
+  }
+  /** Operating System icons **/
+  .linux {
+    @apply bg-[url('../public/icons/skills/linux.svg')] dark:bg-[url('../public/icons/skills/linux-dark.svg')];
+  }
+  .linux.colored {
+    @apply bg-[url('../public/icons/skills/linux-colored.svg')];
+  }
+  .macos {
+    @apply bg-[url('../public/icons/skills/macos.svg')] dark:bg-[url('../public/icons/skills/macos-dark.svg')];
+  }
+  .macos.colored {
+    @apply bg-[url('../public/icons/skills/macos-colored.svg')] dark:bg-[url('../public/icons/skills/macos-colored-dark.svg')];
+  }
+  .fedora {
+    @apply bg-[url('../public/icons/skills/fedora.svg')] dark:bg-[url('../public/icons/skills/fedora-dark.svg')];
+  }
+  .fedora.colored {
+    @apply bg-[url('../public/icons/skills/fedora-colored.svg')];
+  }
+  .ubuntu {
+    @apply bg-[url('../public/icons/skills/ubuntu.svg')] dark:bg-[url('../public/icons/skills/ubuntu-dark.svg')];
+  }
+  .ubuntu.colored {
+    @apply bg-[url('../public/icons/skills/ubuntu-colored.svg')];
+  }
   /** Other icons **/
   .dot-net {
     @apply bg-[url('../public/icons/skills/dot-net.svg')] dark:bg-[url('../public/icons/skills/dot-net-dark.svg')];
@@ -886,12 +930,6 @@ Table Of Contents:
   .aws.colored {
     @apply bg-[url('../public/icons/skills/aws-colored.svg')];
   }
-  .arduino {
-    @apply bg-[url('../public/icons/skills/arduino.svg')] dark:bg-[url('../public/icons/skills/arduino-dark.svg')];
-  }
-  .arduino.colored {
-    @apply bg-[url('../public/icons/skills/arduino-colored.svg')];
-  }
   .blender {
     @apply bg-[url('../public/icons/skills/blender.svg')] dark:bg-[url('../public/icons/skills/blender-dark.svg')];
   }
@@ -910,29 +948,11 @@ Table Of Contents:
   .docker.colored {
     @apply bg-[url('../public/icons/skills/docker-colored.svg')];
   }
-  .linux {
-    @apply bg-[url('../public/icons/skills/linux.svg')] dark:bg-[url('../public/icons/skills/linux-dark.svg')];
-  }
-  .linux.colored {
-    @apply bg-[url('../public/icons/skills/linux-colored.svg')];
-  }
-  .macos {
-    @apply bg-[url('../public/icons/skills/macos.svg')] dark:bg-[url('../public/icons/skills/macos-dark.svg')];
-  }
-  .macos.colored {
-    @apply bg-[url('../public/icons/skills/macos-colored.svg')] dark:bg-[url('../public/icons/skills/macos-colored-dark.svg')];
-  }
   .pytorch {
     @apply bg-[url('../public/icons/skills/pytorch.svg')] dark:bg-[url('../public/icons/skills/pytorch-dark.svg')];
   }
   .pytorch.colored {
     @apply bg-[url('../public/icons/skills/pytorch-colored.svg')];
-  }
-  .raspberrypi {
-    @apply bg-[url('../public/icons/skills/raspberrypi.svg')] dark:bg-[url('../public/icons/skills/raspberrypi-dark.svg')];
-  }
-  .raspberrypi.colored {
-    @apply bg-[url('../public/icons/skills/raspberrypi-colored.svg')];
   }
   .tensorflow {
     @apply bg-[url('../public/icons/skills/tensorflow.svg')] dark:bg-[url('../public/icons/skills/tensorflow-dark.svg')];
